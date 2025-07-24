@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+    <head>
+
+    <link href="utilities/css/style.css" media="screen" rel="stylesheet" />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta
+      name="csrf-token"
+      content="8teUNqSYlW3neni2wEvyCK8HcNSVcm1GByRiqt+FHUbK2s5zZ8QN+vGu05ERsF+o55vNGu7Wyn6mSFttQNgSFg=="
+    />
+    <meta property="og:title" content="Dtr3s Monet" />
+    <title>Dtr3s Monet</title>
+
+
+
+      <!--
+    <meta
+      name="description"
+      content="Dtr3s Monet"
+    />
+    <meta
+      property="og:description"
+      content="Dtr3s Monet"
+    />
+    <meta
+      name="keywords"
+      content="Dtr3s Monet"
+    />
+    <meta
+      property="og:image"
+      content="https://dy53q6sor7j4i.cloudfront.net/images/karmeleon2/opengraph.jpg"
+    />
+    <meta property="og:site_name" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="fb:app_id" content="359034750804645" />
+    <link rel="canonical" href="" />
+    <meta property="og:url" content="" />
+    -->
+    <link
+      rel="alternate"
+      type="application/atom+xml"
+      title="Karma Blog"
+      href=""
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href=""
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      type="image/png"
+      href=""
+    />
+    <meta
+      name="msapplication-TileImage"
+      content=""
+    />
+    <meta name="msapplication-TileColor" content="#f9461c" />
+
+
+
+    
+    <script src="//cdn.optimizely.com/js/548200593.js"></script>
+    <script src="./utilities/js/script.js"></script>
+    <!--[if lt IE 9
+      ]><script src="https://dy53q6sor7j4i.cloudfront.net/assets/html5shiv/dist/html5shiv-d3d35aa8c5c7074d41080b04f1324ad142a05add2f6e1e2ac7028b1eb3bece66.js"></script
+    ><![endif]-->
+    
+    
+    
+    <!--[if lt IE 9]>
+      <script src="https://dy53q6sor7j4i.cloudfront.net/assets/es5-shim.min-1785235b13c15856e7ed74d729b1a803d01157ac45507931a32d1789d827b518.js"></script>
+      <script src="https://dy53q6sor7j4i.cloudfront.net/assets/es5-sham.min-ea8123e86dc6d3463194080720478e6dc813c168041f11fd292c6cea2cbbe60c.js"></script>
+    <![endif]-->
+  <!---->
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .hero-iframe-container {
+      width: 100%;
+
+      min-height: 800px;
+      overflow: hidden;
+    }
+    .hero-iframe-container iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top: 100px;
+  font-family: "Lexia Lg", sans-serif; /* <-- aquí aplicas tu fuente */
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+    text-decoration: none; /
+}
+
+footer a:hover {
+  color: #00B2E2;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #0E2F3C;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #00B2E2;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+
+
+  </style>
+
+            <style>
+  @media (max-width: 768px) {
+    .k-new-navbar-item-login {
+      display: none;
+    }
+  }
+</style>
+  </head>
+
+
+  
+  <body class="home">
+    <noscript
+      ><iframe
+        height="0"
+        src="https://www.googletagmanager.com/ns.html?id=GTM-587LC7"
+        style="display: none; visibility: hidden"
+        width="0"
+      ></iframe
+    ></noscript>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-587LC7");
+    </script>
+    <script>
+      var experiments = [];
+      if (window["optimizely"]) {
+        $.each(
+          window["optimizely"].data.state.activeExperiments,
+          function (idx, experimentId) {
+            experiments.push(
+              window["optimizely"].data.state.variationNamesMap[experimentId]
+            );
+          }
+        );
+      }
+
+      function abTesting(experimentName) {
+        return $.inArray(experimentName, experiments) > -1;
+      }
+
+      document.cookie = "experiments=" + experiments.join("|") + ";";
+    </script>
+
+
+
+
+
+
+ 
+
+
+    <div
+      class="k-new-navbar k-new-navbar--scrolled"
+      data-behavior="LoggedInNavbar ToggleClassWhenScrolling "
+      data-login-details=""
+      data-scroll-class="k-new-navbar--scrolled"
+      data-scroll-class-behavior="add"
+      data-scroll-offset="5"
+    >
+      <div class="k-new-navbar-left">
+        <a class="k-new-navbar-logo" href="https://yourkarma.com"></a>
+      </div>
+
+            <div class="k-new-navbar-item-container">
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Buscar temas..."
+      class="input__search"
+      style="margin-left: 400px;"
+    />
+  </div>
+
+
+      <div class="k-new-navbar-right">
+        <div class="k-new-navbar-item-container">
+          <a class="k-new-navbar-item-store" href="https://yourkarma.com/store"
+            >Producto</a
+          >
+        </div>
+
+
+        <div class="k-new-navbar-item-container">
+          <a
+            class="k-new-navbar-item-login"
+            data-logged-in="false"
+            href="https://login.yourkarma.com"
+            >Login</a
+          >
+        </div>
+        <div
+          class="k-new-navbar-item-container k-new-navbar-item-container--hidden"
+        >
+          <a
+            class="k-new-navbar-item-login"
+            data-logged-in="true"
+            href="https://yourkarma.com/dashboard"
+            >Acceso</a
+          >
+
+
+
+        </div>
+        <div
+          class="k-new-navbar-item-container k-new-navbar-item-container--last"
+        >
+          <a
+            class="k-new-navbar-item-menu"
+            data-behavior="ExpandNewNavbar"
+            href="#"
+            >Menu</a
+          >
+          <div class="k-new-navbar-item-stack" data-behavior="ExpandNewNavbar">
+            <div class="k-new-navbar-item-stack-top"></div>
+            <div class="k-new-navbar-item-stack-middle"></div>
+            <div class="k-new-navbar-item-stack-bottom"></div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      
+      <div class="k-new-navbar-side-bar">
+        <a
+          class="k-new-navbar-side-bar-item"
+          href="https://www.dtr3s.es/s"
+          >Documentacion</a
+        ><a
+          class="k-new-navbar-side-bar-item"
+          href="https://www.dtr3s.es/"
+          >Proyectos</a
+        ><a class="k-new-navbar-side-bar-item" href="https://www.dtr3s.es/"
+          >A. Digital</a
+        >
+        <a class="k-new-navbar-side-bar-item" href="https://www.dtr3s.es/"
+          >Mantenimiento</a
+        ><a
+          class="k-new-navbar-side-bar-item"
+          href="https://www.dtr3s.es/"
+          >Sobre Dtr3s</a
+        ><a class="k-new-navbar-side-bar-item" href="https://www.dtr3s.es/"
+          >Software</a
+        >
+        <div class="k-new-navbar-item-container--hidden">
+          <h3
+            class="k-header--xx-small k-spacing-top--x-large k-spacing-bottom--base k-color--blue"
+          >
+            My Account
+          </h3>
+          <a
+            class="k-new-navbar-side-bar-item"
+            data-logged-in="true"
+            href="https://www.dtr3s.es/"
+            >Sign Out</a
+          >
+        </div>
+        <h3
+          class="k-header--xx-small k-spacing-top--x-large k-spacing-bottom--base k-color--blue"
+        >
+          Get Support
+        </h3>
+        <a class="k-new-navbar-side-bar-item" href="https://www.dtr3s.es/"
+          >Centro de Ayuda</a
+        ><a
+          class="k-new-navbar-side-bar-item"
+          href="https://www.dtr3s.es/"
+          >Contacto</a
+        ><a
+          class="k-new-navbar-side-bar-item"
+          href="https://www.dtr3s.es/"
+          >Tecnicos</a
+        >
+        <a
+          class="k-new-navbar-side-bar-item k-new-navbar-side-bar-item-legal"
+          href="https://www.dtr3s.es/"
+          >Privacidad</a
+        ><a
+          class="k-new-navbar-side-bar-item k-new-navbar-side-bar-item-legal"
+          href="https://www.dtr3s.es/"
+          >Terminos</a
+        >
+      </div>
+    </div>
+
+
+
+
+
+
+ <div style="height: 75px;"></div>
+
+
+
+
+
+<nav class="navbar">
+  <div class="nav-item active" onclick="switchTab('general')">General</div>
+  <div class="nav-item" onclick="switchTab('clientes')">Clientes</div>
+  <div class="nav-item" onclick="switchTab('ventas')">Ventas</div>
+</nav>
+
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar">
+      <!-- Categorías se llenan con JS -->
+    </nav>
+    <main class="content" id="docList">
+      <!-- Contenido dinámico -->
+    </main>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </body>
+
+
+  <script src="./utilities/js/data.js"></script>
+  <script src="./utilities/js/scriptguia.js"></script>
+
+
+</html>
+
